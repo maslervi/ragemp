@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="package://res/register/css/registration.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Rage_MP</title>
+</head>
+<body>
+    
+<header class="header">
+    <div class="container">
+      <div class="header__inner">
+          <nav class="nav">
+          <a class="nav__link" href="package://res/register/registration.html">Регистрация</a><a class="nav__link" href="package://res/register/entrance.html">Авторизация</a><a class="nav__link" href="package://res/register//recovery.html">Восстановление пароля</a>
+          </nav>
+      </div> 
+    </div>
+</header>    
+    
+ <div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+             <div class="intro__rectangle">
+                <div id="error">
+                    <p id="error-p"></p>
+                </div>
+        <form class="registration" id="reg" >
+            <h2 class="intro__title">Регистрация</h2> 
+            <!-- <input class="registration__input" id="reg-mail" type="email" placeholder="Введите Вашу почту">  -->
+            
+            <input class="registration__input" id="reg-login" type="login" placeholder="Придумайте логин"> 
+            
+            <input class="registration__input" id="reg-pass" type="password" placeholder="Придумайте пароль"> 
+            
+            <input class="registration__input" id="reg-spass" type="password" placeholder="Повторите пароль"> 
+
+            <input class="registration__input" id="reg-name" type="name" placeholder="Придумайте имя"> 
+            
+             <button class="registration__btn" onclick="regfuno()" type="submit">Создать</button> 
+        </form> 
+                 
+     </div>
+        </div>
+    </div> 
+ </div>
+
+ <script src="package://res/register/scripts/onc.js"></script>
+</body>
+    
+    
+</html>

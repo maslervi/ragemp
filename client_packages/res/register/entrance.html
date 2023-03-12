@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="package://res/register/css/entrance.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Rage_MP</title>
+</head>
+<body>
+    
+<header class="header">
+    <div class="container">
+      <div class="header__inner">
+          <nav class="nav">
+          <a class="nav__link" href="package://res/register/registration.html">Регистрация</a><a class="nav__link" href="package://res/register/entrance.html">Авторизация</a><a class="nav__link" href="package://res/register//recovery.html">Восстановление пароля</a>
+          </nav>
+      </div> 
+    </div>
+</header>    
+    
+ <div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+             <div class="intro__rectangle">
+        <div id="error"></div>
+        <form class="entrance" id="log">
+            <h2 class="intro__title">Авторизация</h2> 
+            <input class="entrance__input" id="log-login" type="login" placeholder="Логин/e-mail"> 
+            
+            <input class="entrance__input" id="log-pass" type="password" placeholder="Пароль"> 
+            
+             <button class="entrance__btn" id="log-btn" onclick="loginfuno()" type="submit">Войти</button> 
+        </form> 
+                 
+     </div>
+        </div>
+    </div> 
+ </div>
+ <script src="package://res/register/scripts/onc.js"></script>
+</body>
+    
+    
+</html>
